@@ -13,7 +13,7 @@
         <link rel="stylesheet" type="text/css" id="savvyStyle" href="assets/css/main-skin-style5.css">
         <!-- end stylesheets -->
     </head>
-    <body class="layout-body layout-body--home">
+    <body class="layout-body layout-body--blog">
         <!-- .layout -->
         <div class="layout layout-width">
             <div class="layout-anti-scroll layout-anti-scroll--active layout-width"></div>
@@ -22,7 +22,7 @@
                 <header>
                     <div id="headerMenuSlidingElement" class="main-nav__sliding-element"></div>
                     <ul class="main-nav">
-                        <li class="main-nav__item main-nav__item--active">
+                        <li class="main-nav__item">
                             <a class="main-nav__item-link" href="index.html">
                                 <span class="main-nav__item-icon-wrapper">
                                     <i class="main-nav__item-icon icon-home"></i>
@@ -46,7 +46,7 @@
                                 <span class="main-nav__item-content">Projects</span>
                             </a>
                         </li>
-                             <li class="main-nav__item">
+                        <li class="main-nav__item main-nav__item--active">
                             <a class="main-nav__item-link" href="blog.html">
                                 <span class="main-nav__item-icon-wrapper">
                                     <i class="main-nav__item-icon icon-blog"></i>
@@ -61,7 +61,7 @@
                                 </span>
                                 <span class="main-nav__item-content">Getaways</span>
                             </a>
-                        </li>          
+                        </li>
                         <li class="main-nav__item">
                             <a class="main-nav__item-link" href="contact.html">
                                 <span class="main-nav__item-icon-wrapper">
@@ -72,7 +72,7 @@
                         </li>
                     </ul>
                     <div class="mobile-menu">
-                        <a class="mobile-menu__toggle" href="index.html#">
+                        <a class="mobile-menu__toggle" href="blog.html#">
                             <span class="mobile-menu__toggle__icon">
                                 <i class="fa fa-bars mobile-menu__toggle__icon__open"></i>
                                 <i class="fa fa-times mobile-menu__toggle__icon__close"></i>
@@ -89,10 +89,9 @@
                     <div class="sidebar__site-name">Ryan Speed</div>
                     <div class="widget">
                         <ul class="widget__list">
-                            <li>Data Scientist</li>
-                            <li>Baseball Fan</li>
-                            <li>Avid Golfer</li>
-                            <li></li>
+                             <li>Data Scientist</li>
+                            <li>Baseball fan</li>
+                            <li>Avid golfer</li>
                         </ul>
                     </div>
                     <!-- .social-icons -->
@@ -125,7 +124,7 @@
                     </ul>
                     <!-- end .social-icons -->
                     <footer class="footer">
-                        <p class="footer__copyright">&copy; Speed, 2016. All rights reserved.</p>
+                        <p class="footer__copyright">&copy; Speed, 2015. All rights reserved.</p>
                     </footer>
                 </div>
                 <!-- end .sidebar -->
@@ -134,29 +133,96 @@
             <div class="layout-container-main layout-container-width">
                 <!-- .layout-content -->
                 <div class="layout-content">
-                    <section class="page-home layout-row">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h1 class="page-home__page-title"></h1>
-                                <div class="page-home__text">
-                                    <p>I'm currently undertaking a MS degree in Analytics at the University of San Francisco. ...</p>
-                                    <p>... Welcome to my website.</p>
+                    <section class="blog">
+                        <div class="layout-title-wrapper layout-row">
+                            <h1 class="layout-title layout-container-width layout-container">Blog.
+                                <span class="layout-title__subtitle">Data Analytics</span>
+                            </h1>
+                        </div>
+                        <div class="blog-posts">
+                            <div class="blog-post layout-row">
+                                <a class="blog-post__image-wrap" href="blog-single.html">
+                                    <img class="blog-post__image" src="uploads/blog/desktop.jpg" alt="">
+                                </a>
+                                <div class="layout-container layout-horizontal-padding">
+                                    <h2 class="blog-post__title"><a href="blog-single.html">Post 1</a></h2>
+                                    <ul class="blog-post__article-info">
+                                        <li>
+                                            <a href="blog.html#">
+                                                <i class="fa fa-calendar"></i>20 December 2014</a>
+                                        </li>
+                                        <li>
+                                            <a href="blog.html#">
+                                                <i class="fa fa-folder-open"></i>work</a>
+                                        </li>
+                                        <li>
+                                            <a href="blog.html#">
+                                                <i class="fa fa-tags"></i>work, office</a>
+                                        </li>
+                                        <li>
+                                            <a href="blog.html#">
+                                                <i class="fa fa-comments-o"></i>14 comments</a>
+                                        </li>
+                                    </ul>
+                                    <p class="blog-post__content">Coming soon</p>
+                                    <a class="btn btn-lg btn--style1 btn--blog" href="blog-single.html">Read More</a>
                                 </div>
                             </div>
-                            <div class="col-md-6 page-home__thumbnail-wrap">
-                                <img class="page-home__thumbnail" src="uploads/home/home-image.jpg" alt="">
+                            <div class="blog-post layout-row">
+                                <div class="layout-container layout-horizontal-padding">
+                                    <h2 class="blog-post__title"><a href="blog-single.html">Post 2</a></h2>
+                                    <ul class="blog-post__article-info">
+                                        <li>
+                                            <a href="blog.html#">
+                                                <i class="fa fa-calendar"></i>15 December 2014</a>
+                                        </li>
+                                        <li>
+                                            <a href="blog.html#">
+                                                <i class="fa fa-folder-open"></i>life</a>
+                                        </li>
+                                        <li>
+                                            <a href="blog.html#">
+                                                <i class="fa fa-tags"></i>love, fun</a>
+                                        </li>
+                                    </ul>
+                                    <p class="blog-post__content">Coming soon</p>
+                                    <a class="btn btn-lg btn--style1 btn--blog" href="blog-single.html">Read More</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <img class="page-home__sign" src="uploads/home/sign.png" alt="">
+                            <div class="blog-post layout-row">
+                                <a class="blog-post__image-wrap" href="blog-single.html">
+                                    <img class="blog-post__image" src="uploads/blog/autumn-cafe.jpg" alt="">
+                                </a>
+                                <div class="layout-container layout-horizontal-padding">
+                                    <h2 class="blog-post__title"><a href="blog-single.html">Post 3</a></h2>
+                                    <ul class="blog-post__article-info">
+                                        <li>
+                                            <a href="blog.html#">
+                                                <i class="fa fa-calendar"></i>26 April 2014</a>
+                                        </li>
+                                        <li>
+                                            <a href="blog.html#">
+                                                <i class="fa fa-folder-open"></i>life, travelling</a>
+                                        </li>
+                                        <li>
+                                            <a href="blog.html#">
+                                                <i class="fa fa-tags"></i>autumn, New York</a>
+                                        </li>
+                                    </ul>
+                                    <p class="blog-post__content">Coming soon </p>
+                                    <a class="btn btn-lg btn--style1 btn--blog" href="blog-single.html">Read More</a>
+                                </div>
                             </div>
+                           
+                            </div>
+                       
+                           
                         </div>
                     </section>
                 </div>
                 <!-- end .layout-content -->
                 <div class="footer--bottom layout-row">
-                    <p class="footer__copyright">&copy; Speed, 2016. All rights reserved.</p>
+                    <p class="footer__copyright">&copy; Rossi, 2015. All rights reserved.</p>
                 </div>
             </div>
         </div>
@@ -181,12 +247,12 @@
             </div>
             <div class="style-panel__title">Choose a color:</div>
             <div class="style-panel__colors">
-                <a data-value="style1" href="index.html#" class="style-panel__color style-panel__color--style1"></a>
-                <a data-value="style2" href="index.html#" class="style-panel__color style-panel__color--style2"></a>
-                <a data-value="style3" href="index.html#" class="style-panel__color style-panel__color--style3"></a>
-                <a data-value="style4" href="index.html#" class="style-panel__color style-panel__color--style4"></a>
-                <a data-value="style5" href="index.html#" class="style-panel__color style-panel__color--style5"></a>
-                <a data-value="style6" href="index.html#" class="style-panel__color style-panel__color--style6"></a>
+                <a data-value="style1" href="blog.html#" class="style-panel__color style-panel__color--style1"></a>
+                <a data-value="style2" href="blog.html#" class="style-panel__color style-panel__color--style2"></a>
+                <a data-value="style3" href="blog.html#" class="style-panel__color style-panel__color--style3"></a>
+                <a data-value="style4" href="blog.html#" class="style-panel__color style-panel__color--style4"></a>
+                <a data-value="style5" href="blog.html#" class="style-panel__color style-panel__color--style5"></a>
+                <a data-value="style6" href="blog.html#" class="style-panel__color style-panel__color--style6"></a>
             </div>
             <div class="style-panel__info">and many more...</div>
             <div class="style-panel__reset">
