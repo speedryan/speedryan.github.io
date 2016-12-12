@@ -233,7 +233,7 @@ body {
 .main-nav__item--active .main-nav__item-icon-wrapper:before {
   bottom: -38px;
   left: -38px;
-  width: 76px;
+  width: 100px;
   height: 76px;
   background: #abb3c7;
 }
@@ -500,7 +500,7 @@ input[type="reset"] {
   display: block;
   border: 2px solid #00d4d4;
   background: transparent;
-  border-radius: 70px;
+  border-radius: 10px;
   color: #3f3f3f;
   font: normal 700 0.889em Raleway, sans-serif;
 }
@@ -520,7 +520,7 @@ input[type="reset"] {
   position: relative;
   border: 2px solid #d3d3d5;
   background: transparent;
-  border-radius: 70px;
+  border-radius: 20px;
   color: #ffffff;
   font: normal 700 0.889em Raleway, sans-serif;
   pointer-events: auto;
@@ -529,7 +529,7 @@ input[type="reset"] {
   position: absolute;
   margin-top: -0.4445em;
   top: 50%;
-  right: 20px;
+  right: 10px;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -547,7 +547,7 @@ input[type="reset"] {
   padding-right: 15px;
   border: 2px solid #d5d0d9;
   background: transparent;
-  border-radius: 70px;
+  border-radius: 20px;
   color: #3f3f3f;
   font: normal 600 0.778em Raleway, sans-serif;
 }
@@ -1732,13 +1732,13 @@ textarea {
 /*=== Main nav resposive settings ===*/
 /*=== general layout responsive settings ===*/
 .layout-width {
-  width: 1330px;
+  width: 1530px;
 }
 .layout-sidebar-width {
-  width: 443.3333289px;
+  width: 343.3333289px;
 }
 .layout-container-width {
-  width: 886.6666711px;
+  width: 1186.6666711px;
 }
 .sidebar-container,
 .footer,
@@ -1792,15 +1792,15 @@ textarea {
 .achievement-grid__cell {
   padding: 60px;
 }
-@media (max-width: 1368px), (max-height: 900px) {
+@media (max-width: 1230px), (max-height: 900px) {
   .layout-width {
-    width: 1130px;
+    width: 95%;
   }
   .layout-sidebar-width {
-    width: 376.6666629px;
+    width: 25%;
   }
   .layout-container-width {
-    width: 753.3333371px;
+    width: 75%;
   }
   .sidebar-container,
   .footer,

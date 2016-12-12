@@ -10,8 +10,9 @@
         <link rel="stylesheet" type="text/css" href="assets/csslib/icomoon.css">
         <link rel="stylesheet" type="text/css" href="assets/csslib/jquery.mCustomScrollbar.css">
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-custom.css">
-        <link rel="stylesheet" type="text/css" id="savvyStyle" href="assets/css/main-skin-style5.css">
-        <script>
+        <link rel="stylesheet" type="text/css" id="savvyStyle" href="assets/css/main-skin-style6.css">
+        <!-- end stylesheets -->
+           <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -20,9 +21,80 @@
           ga('create', 'UA-78773807-1', 'auto');
           ga('send', 'pageview');
         </script>
-        <!-- end stylesheets -->
+
+
+         <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+
+    <style>
+
+
+
+        .button {
+            display: inline-block;
+            padding: 15px 15px;
+            font-size: 12px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #000084;
+            border: none;
+            border-radius: 50%;
+            box-shadow: 0 2px #999;
+        }
+
+        .button:hover {background-color:  #C4150C}
+
+        .button:active {
+            background-color:  #C4150C;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+        .button {
+            position: relative;
+            left: 530px;
+            top:50px;
+
+        }
+        rect:hover {
+            fill: orange;
+        }
+        rect {
+            -moz-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+
+        .button:hover {background-color:  #C4150C}
+
+        .button:active {
+            background-color:  #C4150C;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+
+
+
+
+    </style>
+
+
+
+
+
+
+        
+
     </head>
-    <body class="layout-body layout-body--services">
+    <body class="layout-body layout-body--blog">
         <!-- .layout -->
         <div class="layout layout-width">
             <div class="layout-anti-scroll layout-anti-scroll--active layout-width"></div>
@@ -48,7 +120,7 @@
                             </a>
                         </li>
                         <li class="main-nav__item main-nav__item--active">
-                            <a class="main-nav__item-link" href="services.html">
+                            <a class="main-nav__item-link " href="services.html">
                                 <span class="main-nav__item-icon-wrapper">
                                     <i class="main-nav__item-icon icon-stats-bars2"></i>
                                 </span>
@@ -58,15 +130,15 @@
                         <li class="main-nav__item">
                             <a class="main-nav__item-link" href="blog.html">
                                 <span class="main-nav__item-icon-wrapper">
-                                    <i class="main-nav__item-icon icon-books"></i>
+                                    <i class="main-nav__item-icon icon-coin-dollar"></i>
                                 </span>
-                                <span class="main-nav__item-content">Blog</span>
+                                <span class="main-nav__item-content">Blockchains</span>
                             </a>
                         </li>
                         <li class="main-nav__item">
                             <a class="main-nav__item-link" href="portfolio.html">
                                 <span class="main-nav__item-icon-wrapper">
-                                    <i class="main-nav__item-icon icon-blog"></i>
+                                    <i class="main-nav__item-icon icon-binoculars"></i>
                                 </span>
                                 <span class="main-nav__item-content">Getaways</span>
                             </a>
@@ -81,7 +153,7 @@
                         </li>
                     </ul>
                     <div class="mobile-menu">
-                        <a class="mobile-menu__toggle" href="services.html#">
+                        <a class="mobile-menu__toggle" href="blog.html#">
                             <span class="mobile-menu__toggle__icon">
                                 <i class="fa fa-bars mobile-menu__toggle__icon__open"></i>
                                 <i class="fa fa-times mobile-menu__toggle__icon__close"></i>
@@ -91,138 +163,84 @@
                 </header>
             </div>
             <!-- end .layout-header -->
-            <!-- .layout-sidebar -->
-            <div class="layout-sidebar layout-sidebar-width">
-                <!-- .sidebar -->
-                <div class="sidebar">
-                    <div class="sidebar__site-name">Ryan Speed</div>
-                    <div class="widget">
-                        <ul class="widget__list">
-                             <li>Data Scientist</li>
-                            <li>Baseball fan</li>
-                            <li>Golf enthusiast</li>
-                        </ul>
-                    </div>
-                    <!-- .social-icons -->
-                    <ul class="social-icons">
-                        <li>
-                            <a href="https://twitter.com/" target="_blank" class="social-icon--twitter">
-                                <i class="fa fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://facebook.com/" target="_blank" class="social-icon--facebook">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank" class="social-icon--google-plus">
-                                <i class="fa fa-google-plus"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://pinterest.com/" target="_blank" class="social-icon--pinterest">
-                                <i class="fa fa-pinterest"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/" target="_blank" class="social-icon--linkedin">
-                                <i class="fa fa-linkedin"></i>
-                            </a>
-                        </li>
-                    </ul>
-                    <!-- end .social-icons -->
-                    <footer class="footer">
-                        <p class="footer__copyright">&copy; Speed, 2016. All rights reserved.</p>
-                    </footer>
-                </div>
-                <!-- end .sidebar -->
-            </div>
-            <!-- end .layout-sidebar -->
+          
             <div class="layout-container-main layout-container-width">
                 <!-- .layout-content -->
                 <div class="layout-content">
-                    <section class="page-services">
-                        <div class="layout-title-wrapper layout-row">
-                            <h1 class="layout-title layout-container-width layout-container">Projects.
-                                <span class="layout-title__subtitle">Analytics.</span>
-                            </h1>
-                        </div>
-                        <div class="layout-row service-item">
-                            <div class="layout-container">
-                                <div class="service-item__icon-wrap">
-                                    <div class="service-item__icon">
-                                        <i class="fa fa-html5"></i>
-                                    </div>
+                    <section class="blog">
+                        <div class="blog-posts">
+                            <div class="blog-post layout-row">
+                                <div id = "barhere" class="layout-container layout-horizontal-padding">
+                                    <h2 class="blog-post__title"><a href="shttps://github.com/d3/d3">Data Visulization</a></h2>
+                                    
+                                    <p class="blog-post__content">About D3.js ..... Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam r veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
+
+                                    <button1 class="button">NG</button1>
+                                    <button2 class="button">BA</button2>
+                                    <button3 class="button">GA</button3>
+                                    <button4 class="button">AV</button4>  
+
+
+
+                                   
                                 </div>
-                                <div class="service-item__content">
-                                    <h2 class="service-item__title">Project 1</h2>
-                                    <p class="service-item__description">Coming soon</p>
+
+
+                                <div class = bars>
+
+
+
+
+
+
                                 </div>
-                                <div class="clearfix"></div>
+
+
+                                 <a class="btn btn-lg btn--style1 btn--blog" href="https://gist.github.com/speedryan/7ad66f6b6be5e9c5447c08a9f75d77ea">Code Repository 1</a>
+                                   <br><br>
+
+
                             </div>
-                        </div>
-                        <div class="layout-row service-item">
-                            <div class="layout-container">
-                                <div class="service-item__icon-wrap">
-                                    <div class="service-item__icon">
-                                        <i class="fa fa-gears"></i>
-                                    </div>
+                            <div class="blog-post layout-row">
+                                <div class="layout-container layout-horizontal-padding">
+                                    <h2 class="blog-post__title"><a href="https://en.wikipedia.org/wiki/Ethereum">Project 2</a></h2>
+                                   
+                                    <p class="blog-post__content">Coming soon .... </p>
+
+
+                                    <a class="btn btn-lg btn--style1 btn--blog" href="eth_WP.pdf">Code Repo 2</a>
                                 </div>
-                                <div class="service-item__content">
-                                    <h2 class="service-item__title">Project 2</h2>
-                                    <p class="service-item__description">Coming soon</p>
+
+</div>
+                            
+
+                            <div style = "height:500px" class="blog-post layout-row">
+                                
+                                <div class="layout-container layout-horizontal-padding">
+                                    <h2 class="blog-post__title"><a href="https://en.wikipedia.org/wiki/SHA-2">Project 3</a></h2>
+                                    
+                                    <p class="blog-post__content"> Coming soon .... </p>
+                                    <a class="btn btn-lg btn--style1 btn--blog" href="https://gist.github.com/speedryan/f4364e561132a75d9cb945ff1cbf45ee">Code Repo 2</a>
                                 </div>
-                                <div class="clearfix"></div>
+
+
+
+
+
+
+
+
                             </div>
-                        </div>
-                        <div class="layout-row service-item">
-                            <div class="layout-container">
-                                <div class="service-item__icon-wrap">
-                                    <div class="service-item__icon">
-                                        <i class="fa fa-paint-brush"></i>
-                                    </div>
-                                </div>
-                                <div class="service-item__content">
-                                    <h2 class="service-item__title">Project 3</h2>
-                                    <p class="service-item__description">Coming soon</p>
-                                </div>
-                                <div class="clearfix"></div>
+                           
                             </div>
-                        </div>
-                        <div class="layout-row service-item">
-                            <div class="layout-container">
-                                <div class="service-item__icon-wrap">
-                                    <div class="service-item__icon">
-                                        <i class="fa fa-search"></i>
-                                    </div>
-                                </div>
-                                <div class="service-item__content">
-                                    <h2 class="service-item__title">Project 4</h2>
-                                    <p class="service-item__description">Coming soon</p>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                        <div class="layout-row service-item">
-                            <div class="layout-container">
-                                <div class="service-item__icon-wrap">
-                                    <div class="service-item__icon">
-                                        <i class="fa fa-camera"></i>
-                                    </div>
-                                </div>
-                                <div class="service-item__content">
-                                    <h2 class="service-item__title">Project 5</h2>
-                                    <p class="service-item__description">Coming soon</p>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
+                       
+                           
                         </div>
                     </section>
                 </div>
                 <!-- end .layout-content -->
                 <div class="footer--bottom layout-row">
-                    <p class="footer__copyright">&copy; Speed, 2016. All rights reserved.</p>
+                    <p class="footer__copyright">&copy; Speed, 2017. All rights reserved.</p>
                 </div>
             </div>
         </div>
@@ -239,30 +257,480 @@
         <script type="text/javascript" src="assets/jslib/jquery.sharrre.js"></script>
         <script type="text/javascript" src="assets/jslib/jquery.hoverdir.js"></script>
         <script type="text/javascript" src="assets/js/Template.js"></script>
+
+<script type="text/javascript">
+
+
+
+
+    //Width and height
+    var w = 800;
+    var h = 450;
+    var padding = 30;
+
+    var BA = [6, 6, 3, 5, 1, 3, 4, 8, 3, 3, 5, 5, 2, 5, 8, 4, 2,
+                4,  5,  1,  3,  1,  4, 17, 11,  8,  2,  4,  4,  6,  8,  9,  9, 15,
+                5, 21,  1,  1, 12,  7,  8,  8,  6, 13,  5, 11,  4, 23,  5,  5, 13,
+                3];
+
+        var NG = [3, 3, 3, 2, 2, 2, 2, 3, 5, 3, 4, 9, 2, 1, 4, 4, 1, 2, 4, 3, 2, 0,2, 5,
+            3, 2, 2, 1, 1, 2, 3, 0,2, 5, 1, 3, 3, 0,4, 3, 2, 5, 5, 2, 3, 1, 2, 3, 2,
+            1, 3, 2];
+
+
+
+
+        var GA = [ 8, 11, 14,  9, 12, 13, 11, 17, 12, 21, 23, 19, 15, 22, 11,  4,  5,
+                    14,  7, 11,  7, 14,  9, 26, 13, 18, 10, 16, 16, 14, 18, 15,  7,  6,
+                    19, 26, 16,  5, 23,  7,  9, 16, 18, 15, 13, 11, 16, 24, 10, 13, 11,
+                    3,  1];
+
+        var AV = [ 1,  8,  8, 10,  6, 13, 23,  8,  7,  7, 10, 28,  6,  9, 10,  6,  5,
+                    8,  5,  2,  8,  3,  8, 14,  5,  7,  4,  2, 0,  4,  4,  4,  4, 13,  6,
+                    4,  2,  2,  4, 0, 2,  2,  6,  4,  5,  7,  4,  9,  4,  3,  2];
+
+        var ax = ['2011-10','2011-11', '2011-12', '2012-01', '2012-02', '2012-03', '2012-04',
+            '2012-05', '2012-06', '2012-07', '2012-08', '2012-09', '2012-10',
+            '2012-11', '2012-12', '2013-01', '2013-02', '2013-03', '2013-04',
+            '2013-05', '2013-06', '2013-07', '2013-08', '2013-09', '2013-10',
+            '2013-11', '2013-12', '2014-01', '2014-02', '2014-03','2014-04',
+            '2014-05', '2014-06', '2014-07', '2014-08', '2014-09', '2014-10',
+            '2014-11','2014-12', '2015-01',  '2015-02','2015-03', '2015-04',
+            '2015-05', '2015-06', '2015-07', '2015-08', '2015-09', '2015-10',
+            '2015-11', '2015-12', '2016-01'];
+
+
+    var monthFormat = d3.time.format("%b");
+    var yearFormat = d3.time.format("%y");
+
+
+
+
+
+
+
+
+    var xScale = d3.scale.ordinal()
+                .domain(d3.range(GA.length))
+                .rangeRoundBands([0, w], 0.05);
+
+        var xScale2 = d3.scale.ordinal()
+            .domain(ax)
+            .rangePoints([0, w - 15],1.1);
+
+
+    var yScale = d3.scale.linear()
+                .domain([0, d3.max(AV)])
+                .range([0, h]);
+
+        //Define X axis
+        var xAxis = d3.svg.axis()
+                .scale(xScale2)
+                .orient("bottom");
+
+        //Create SVG element
+        var svg = d3.select("#barhere")
+                .append("svg")
+                .attr("width", w )
+                .attr("height", h + 100);
+
+
+
+
+
+    //Create bars
+        svg.selectAll("rect")
+                .data(GA)
+                .enter()
+                .append("rect")
+                .attr("x", function (d, i) {
+                    return xScale(i);
+                })
+                .attr("y", function (d) {
+                    return h - yScale(d);
+                })
+                .attr("width", xScale.rangeBand())
+
+                .attr("height", function (d) {
+                    return yScale(d);
+                })
+                .attr("fill", function (d) {
+                    return "rgb(0, 0, " + (d * 25) + ")";
+                })
+
+                .on("click", function () {
+                    sortBars();
+                    sorttxt();
+                    sortax();
+                })
+
+
+        ;
+
+        //Create labels
+        svg.selectAll("text")
+                .data(GA)
+                .enter()
+                .append("text")
+                .attr("id", "labtext")
+                .text(function (d) {
+                    return d;
+                })
+                .attr("text-anchor", "middle")
+                .attr("x", function (d, i) {
+                    return xScale(i) + xScale.rangeBand() / 2;
+                })
+                .attr("y", function (d) {
+                    return h - yScale(d) + 14;
+                })
+                .attr("font-family", "sans-serif")
+                .attr("font-size", "11px")
+                .attr("fill", "white")
+
+        ;
+
+
+
+
+    svg.append("g")
+            .attr("class", "x axis")
+            .attr("transform",  "translate(-5,460)" )
+            .call(xAxis)
+            .selectAll("text")
+            .attr("id", "axtext")
+            .attr("font-size", "11px")
+            .style("text-anchor", "end")
+            .attr("dx", "-.8em")
+            .attr("dy", ".15em")
+            .attr("transform",  "rotate(-90)" )
+
+    ;
+
+
+    svg.selectAll(".tick")
+            .data(GA)
+            .enter()
+    ;
+
+        //Define sort order flag
+        var sortOrder = true;
+
+        //Define sort function
+        var sortBars = function () {
+
+            //Flip value of sortOrder
+            sortOrder = !sortOrder;
+
+            svg.selectAll("rect")
+                    .sort(function (a, b) {
+                        if (sortOrder) {
+                            return d3.ascending(a, b);
+                        } else {
+                            return d3.descending(a, b);
+                        }
+                    })
+                    .transition()
+                    .delay(function (d, i) {
+                        return i * 20;
+                    })
+                    .duration(100)
+                    .attr("x", function (d, i) {
+                        return xScale(i);
+                    });
+
+        };
+
+
+        //Define sort function
+        var sorttxt = function () {
+
+            //Flip value of sortOrder
+            sortOrder = sortOrder;
+
+
+
+
+            svg.selectAll("#labtext")
+                    .sort(function (a, b) {
+
+                        if (sortOrder) {
+                            return d3.ascending(a, b);
+
+                        } else {
+                            return d3.descending(a, b);
+                        }
+                    })
+                    .transition()
+                    .delay(function (d, i) {
+                        console.log(d);
+                        return i * 20;
+                    })
+                    .duration(700)
+
+                    .attr("x", function (d, i) {
+                        return xScale(i) + 7;
+                    });
+
+        };
+
+            //Define sort function
+            var sortax = function () {
+
+                //Flip value of sortOrder
+                sortOrder = sortOrder;
+
+                svg.selectAll(".tick")
+                        .sort(function (a, b) {
+                            if (sortOrder) {
+                                return d3.ascending(a, b);
+                            } else {
+                                return d3.descending(a, b);
+                            }
+                        })
+                        .transition()
+                        .delay(function (d, i) {
+                            return i * 20;
+                        })
+                        .duration(100)
+                        .attr("transform", function (d, i) {
+                            return "translate(" + xScale(i)  +",0)"
+                        });
+
+            };
+
+
+
+
+
+
+
+
+
+        //On click, update
+        d3.select("button1")
+                .on("click", function () {
+
+
+
+
+                    //Update all rects
+                    svg.selectAll("rect")
+                            .data(NG)
+                            .transition()
+                            .delay(function (d, i) {
+                                return i / NG.length * 1000;
+                            })
+                            .duration(60)
+                            .attr("y", function (d) {
+                                return h - yScale(d);
+                            })
+                            .attr("height", function (d) {
+                                return yScale(d);
+                            })
+                            .attr("fill", function (d) {
+                                return "rgb(0, 0, " + (d * 25) + ")";
+                            });
+
+
+                    //Update all labels
+                    svg.selectAll("#labtext")
+                            .data(NG)
+                            .transition()
+                            .delay(function (d, i) {
+                                return i / NG.length * 1000;
+                            })
+                            .duration(120)
+                            .text(function (d) {
+                                return d;
+                            })
+                            .attr("x", function (d, i) {
+                                return xScale(i) + xScale.rangeBand() / 2;
+                            })
+                            .attr("y", function (d) {
+                                return h - yScale(d) + 14;
+                            });
+
+
+
+
+
+                });
+
+
+
+
+
+
+
+
+
+
+
+
+
+        d3.select("button2")
+                .on("click", function () {
+
+
+
+
+                    //Update all rects
+                    svg.selectAll("rect")
+                            .data(BA)
+                            .transition()
+                            .delay(function (d, i) {
+                                return i / BA.length * 1000;
+                            })
+                            .duration(60)
+                            .attr("y", function (d) {
+                                return h - yScale(d);
+                            })
+                            .attr("height", function (d) {
+                                return yScale(d);
+                            })
+                            .attr("fill", function (d) {
+                                return "rgb(0, 0, " + (d * 25) + ")";
+                            });
+
+                    //Update all labels
+                    svg.selectAll("#labtext")
+                            .data(BA)
+                            .transition()
+                            .delay(function (d, i) {
+                                return i / BA.length * 1000;
+                            })
+                            .duration(120)
+                            .text(function (d) {
+                                return d;
+                            })
+                            .attr("x", function (d, i) {
+                                return xScale(i) + xScale.rangeBand() / 2;
+                            })
+                            .attr("y", function (d) {
+                                return h - yScale(d) + 14;
+                            });
+
+                });
+                     svg.selectAll(".tick")
+                        .data(BA)
+                        .enter()
+                     ;
+
+
+        d3.select("button3")
+                .on("click", function () {
+
+
+
+
+                    //Update all rects
+                    svg.selectAll("rect")
+                            .data(GA)
+                            .transition()
+                            .delay(function (d, i) {
+                                return i / GA.length * 1000;
+                            })
+                            .duration(60)
+                            .attr("y", function (d) {
+                                return h - yScale(d);
+                            })
+                            .attr("height", function (d) {
+                                return yScale(d);
+                            })
+                            .attr("fill", function (d) {
+                                return "rgb(0, 0, " + (d * 25) + ")";
+                            });
+
+
+                    //Update all labels
+                    svg.selectAll("#labtext")
+                            .data(GA)
+                            .transition()
+                            .delay(function (d, i) {
+                                return i / GA.length * 1000;
+                            })
+                            .duration(120)
+                            .text(function (d) {
+                                return d;
+                            })
+                            .attr("x", function (d, i) {
+                                return xScale(i) + xScale.rangeBand() / 2;
+                            })
+                            .attr("y", function (d) {
+                                return h - yScale(d) + 14;
+                            });
+                });
+
+    // update data on the ticks
+    svg.selectAll(".tick")
+                         .data(GA)
+                         .enter()
+    ;
+
+
+         d3.select("button4")
+                 .on("click", function () {
+
+
+
+
+                                //Update all rects
+                                svg.selectAll("rect")
+                                        .data(AV)
+                                        .transition()
+                                        .delay(function (d, i) {
+                                            return i / AV.length * 1000;
+                                        })
+                                        .duration(60)
+                                        .attr("y", function (d) {
+                                            return h - yScale(d);
+                                        })
+                                        .attr("height", function (d) {
+                                            return yScale(d);
+                                        })
+                                        .attr("fill", function (d) {
+                                            return "rgb(0, 0, " + (d * 25) + ")";
+                                        });
+
+
+                                //Update all labels
+                                svg.selectAll("#labtext")
+                                        .data(AV)
+                                        .transition()
+                                        .delay(function (d, i) {
+                                            return i / AV.length * 1000;
+                                        })
+                                        .duration(120)
+                                        .text(function (d) {
+                                            return d;
+                                        })
+                                        .attr("x", function (d, i) {
+                                            return xScale(i) + xScale.rangeBand() / 2;
+                                        })
+                                        .attr("y", function (d) {
+                                            return h - yScale(d) + 14;
+                                        });
+
+
+                     // update data on the ticks
+                     svg.selectAll(".tick")
+                             .data(GA)
+                             .enter()
+                     ;
+
+
+
+
+                });
+
+
+
+
+
+
+</script>
+
         <!-- end javascripts -->
-        <!-- .style-panel -->
-        <div class="style-panel" style="display:none">
-            <div class="style-panel__button">
-                <i class="fa fa-paint-brush"></i>
-            </div>
-            <div class="style-panel__title">Choose a color:</div>
-            <div class="style-panel__colors">
-                <a data-value="style1" href="services.html#" class="style-panel__color style-panel__color--style1"></a>
-                <a data-value="style2" href="services.html#" class="style-panel__color style-panel__color--style2"></a>
-                <a data-value="style3" href="services.html#" class="style-panel__color style-panel__color--style3"></a>
-                <a data-value="style4" href="services.html#" class="style-panel__color style-panel__color--style4"></a>
-                <a data-value="style5" href="services.html#" class="style-panel__color style-panel__color--style5"></a>
-                <a data-value="style6" href="services.html#" class="style-panel__color style-panel__color--style6"></a>
-            </div>
-            <div class="style-panel__info">and many more...</div>
-            <div class="style-panel__reset">
-                <button class="btn-reset btn btn-xs btn--style1">reset</button>
-            </div>
-        </div>
-        <!-- end .style-panel -->
-        <!-- style panel assets -->
-        <script type="text/javascript" src="assets/jslib/jquery.cookie.js"></script>
-        <script type="text/javascript" src="assets/js/StylePanel.js"></script>
-        <!-- end style panel assets -->
+      
     </body>
 </html>

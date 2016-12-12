@@ -1732,13 +1732,13 @@ textarea {
 /*=== Main nav resposive settings ===*/
 /*=== general layout responsive settings ===*/
 .layout-width {
-  width: 1330px;
+  width: 1530px;
 }
 .layout-sidebar-width {
-  width: 443.3333289px;
+  width: 343.3333289px;
 }
 .layout-container-width {
-  width: 886.6666711px;
+  width: 1186.6666711px;
 }
 .sidebar-container,
 .footer,
@@ -1792,15 +1792,15 @@ textarea {
 .achievement-grid__cell {
   padding: 60px;
 }
-@media (max-width: 1368px), (max-height: 900px) {
+@media (max-width: 1230px), (max-height: 900px) {
   .layout-width {
-    width: 1130px;
+    width: 95%;
   }
   .layout-sidebar-width {
-    width: 376.6666629px;
+    width: 0px;
   }
   .layout-container-width {
-    width: 753.3333371px;
+    width: 1300.6666711px;
   }
   .sidebar-container,
   .footer,
